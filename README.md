@@ -1,8 +1,10 @@
 # WebApiBackEnd
 
 IDE needed: Visual Studio 2017 or 2019
+
 SQL Database: SQL Server 2016 or later
-Postman
+
+Other tool: Postman
 
 
 The project uses .Net Core 3.1 Framework and Dapper ORM to retrieve data from database.
@@ -14,3 +16,7 @@ steps to run:
 3. Change the database connection string to your local database connection string
 4. build the project
 5. run the project
+6. Open up Postman
+7. Import the Postman collection
+8. Update the port number to be the port number shown on localhost
+9. run each request in the collection
