@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "0b8afc18-c1df-43f6-b1ed-e944c691b901",
+		"name": "Text-Em-All Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Challenge 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44370/api/Student/2/transcript",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"api",
+						"Student",
+						"2",
+						"transcript"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Challenge 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44370/api/Student/students",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"api",
+						"Student",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Challenge 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"studentId\": 2,\r\n   \"courseId\": 2042,\r\n   \"grade\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44370/api/Student/grades",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"api",
+						"Student",
+						"grades"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
