@@ -1,1 +1,12 @@
 # WebApiBackEnd
+
+IDE needed: Visual Studio 2017 or 2019
+SQL Database: SQL Server 2016 or later
+Postman
+
+steps to run:
+1. clone the repository to your local machine
+2. Create School database using the Create_tea_test_db.sql
+3. Change the database connection string to your local database connection string
+4. build the project
+5. run the project
