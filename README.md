@@ -4,6 +4,10 @@ IDE needed: Visual Studio 2017 or 2019
 SQL Database: SQL Server 2016 or later
 Postman
 
+
+The project uses .Net Core 3.1 Framework and Dapper ORM to retrieve data from database.
+
+
 steps to run:
 1. clone the repository to your local machine
 2. Create School database using the Create_tea_test_db.sql
